@@ -37,7 +37,7 @@ const CameraFeed = () => {
         ref={videoRef}
         autoPlay
         playsInline
-        style={{ width: "100%", height: "auto" }}
+        style={{ width: "100%", height: "auto",  transform: "scaleX(-1)"}}
       />
     </div>
   );

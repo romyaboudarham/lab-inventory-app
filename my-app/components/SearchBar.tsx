@@ -15,7 +15,7 @@ const SearchBar = () => {
                     height={16}
                 />
             <input
-                className="bg-white h-10 pl-10 px-5 pr-10 w-full rounded-full text-sm outline-1 focus:outline-amber-300"
+                className="bg-pink h-10 pl-10 px-5 pr-10 w-full rounded-full text-sm outline-1 focus:outline-amber-300"
                 type="search"
                 name="search"
             />

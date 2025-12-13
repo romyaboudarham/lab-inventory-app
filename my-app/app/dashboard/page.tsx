@@ -1,5 +1,7 @@
 import CameraFeed from "@/components/CameraFeed";
 import SearchBar from "@/components/SearchBar";
+import ItemCard from "@/components/ItemCard";
+import { itemCardById } from "@/data/itemCardIndex"
 
 export default function Dashboard() {
   return (
@@ -20,6 +22,13 @@ export default function Dashboard() {
           <p className="text-xl md:text-2xl text-zinc-800 dark:text-zinc-200">
             This is where the suite of tools for the lab can live.
           </p>
+          {/* TODO: 
+          - default: display all item cards
+          - OnSearch: filter item cards */}
+          <div className="flex flex-row flex-wrap gap-4">
+            <ItemCard itemCard= {itemCardById["arduino-uno-r3"]}/>
+            <ItemCard itemCard= {itemCardById["arduino-leonardo"]}/>
+          </div>
           <p className="text-lg md:text-xl text-zinc-800 dark:text-zinc-200">
             Also a live camera feed --&gt;
           </p>

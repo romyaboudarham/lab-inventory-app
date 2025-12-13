@@ -16,7 +16,7 @@ export default function Dashboard() {
           </p>
         </div>
       </div>
-      <div>
+      <div className="w-150 flex items-center justify-center">
         <CameraFeed />
       </div>
     </div>

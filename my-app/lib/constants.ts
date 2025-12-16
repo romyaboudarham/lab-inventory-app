@@ -1,11 +1,11 @@
 // COCO dataset class names
 export const CLASS_NAMES = [
-  "person",
+  "Arduino Uno R3",
   "bicycle",
   "car",
-  "motorcycle",
-  "airplane",
-  "bus",
+  "Photoresistor LDR",
+  "Solenoid",
+  "Ultrasonic Distance Sensor HC-SR04",
   "train",
   "truck",
   "boat",
